@@ -34,6 +34,8 @@
                     <v-list-item-content>
                         <v-list-item-title>{{ item.title }}</v-list-item-title>
                     </v-list-item-content>
+
+        
                 </v-list-item>
             </v-list>
         <template v-slot:append>
@@ -77,7 +79,11 @@
                 drawer: null,
                 items: [
                 {
-                    title: 'User Controller', icon: 'mdi-human-male' }, 
+                    title: 'User Controller', icon: 'mdi-human-male' 
+                },
+                {
+                    title: 'Branche Controller', icon: 'mdi-human-male' 
+                }, 
                 ],
             }
         },
