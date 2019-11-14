@@ -83,7 +83,7 @@
                                 <v-text-field label="PhoneNumber*" v-model="form.phoneNumber" required></v-text-field>
                             </v-col>
                             <v-col cols="12">
-                                <v-text-field label="Created_at*" v-model="form.created_at" type="date" required=""></v-text-field>
+                                <v-text-field label="Created_at*" v-model="form.created_at" type="date" required="git "></v-text-field>
                             </v-col>
                         </v-row>
                     </v-container>
